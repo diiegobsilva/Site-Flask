@@ -28,3 +28,30 @@ def manufaturaavançada_2():
 @app.route("/manutençaodeaeronaves2020_2") 
 def ManutençaodeAeronaves2020_2():  
     return render_template('manutençaodeaeronaves20202.html')
+
+@app.route("/ads2021_1") 
+def ADS2021_1():  
+    return render_template('ads2021-1.html')
+
+@app.route("/bd2021_1") 
+def BD2021_1():  
+    return render_template('bd2021-1.html')
+
+@app.route("/dsm2021") 
+def DSM2021_1():  
+    return render_template('dsm2021.html')
+
+@app.route("/logistica20211") 
+def Logistica20211():  
+    return render_template('Logistica20211.html')
+
+
+@app.route("/manutençaodeaeronaves20211") 
+def ManutençaodeaAronaves20211():  
+    return render_template('manutençaodeaeronaves20211.html')
+
+@app.route("/manutençaodeaeronaves2021_1") 
+def ManutençaodeAeronaves2021_1():  
+    return render_template('manufaturaavançada20211.html')
+
+
